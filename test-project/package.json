@@ -1,0 +1,18 @@
+{
+  "name": "glup-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+"scripts": {
+    "clean": "gulp clean",
+    "develop": "gulp develop",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
