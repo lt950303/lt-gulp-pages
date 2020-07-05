@@ -1,0 +1,39 @@
+{
+  "name": "lt-gulp-pages",
+  "version": "0.1.0",
+  "description": "static webAPP  work flow",
+  "keywords": [
+    "lt-gulp-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/lt950303/lt-gulp-pages#readme",
+  "bugs": {
+    "url": "https://github.com/lt950303/lt-gulp-pages/issues"
+  },
+  "license": "MIT",
+  "author": "lt",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lt950303/lt-gulp-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
